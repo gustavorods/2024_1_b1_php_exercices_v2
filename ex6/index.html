@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício Peso Ideal</title>
+</head>
+<body>
+  <form action="code.php" method="post">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <br>
+
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso" name="peso" required>
+
+        <br>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>        
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+
+        <br>
+
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura" name="altura" required>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Opções</legend>
+        <input type="submit" value="Confirmar">
+        <input type="reset" value="Limpar">
+    </fieldset>
+  </form>
+</body>
+</html>
